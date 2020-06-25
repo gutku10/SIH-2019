@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>HTML Template</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Owl Carousel -->
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+    <!-- Magnific Popup -->
+    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <style>
+ .container1{
+  width:1200px;
+  padding-top:50px;
+  padding-bottom:50px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  grid-gap:15px;
+  margin:0 auto;
+  }
+  .container1 .card
+  {
+  position:relative;
+  width: 300px;
+  height:350px;
+  margin:0 auto;
+  background:#fff;
+  box-shadow: 0 15px 60px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  }
+  .container1 .card .face
+{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.container1 .card .face .face1{
+  box-sizing:border-box;
+  padding:20px;
+}
+.container1 .card .face .face1 h2{
+  box-sizing:border-box;
+  padding:20px;
+  align-content: center;
+  justify-content: center;
+  color:black;
+}
+
+
+.container1 .card .face .face21{
+    background: #cb2d3e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: 0.5s;
+  border-radius: 12px;
+}
+.container1 .card:hover .face .face21
+{
+  height:60px;
+}
+.container1 .card .face .face21:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:100%;
+  background:rgba(255,255,255,0.06);
+
+}
+.container1 .card .face .face21 h3{
+  margin:0 !important;
+  padding: 0 !important;
+  font-size: 10em !important;
+  color:#fff !important;
+  transition: 0.5s !important;
+}
+.container1 .card:hover .face .face21 h3
+{
+  font-size:2em !important;
+}
+.container1 .card .face .face22{
+    background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: 0.5s;
+  border-radius: 12px;
+}
+.container1 .card:hover .face .face22
+{
+  height:60px;
+}
+.container1 .card .face .face22:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:100%;
+  background:rgba(255,255,255,0.06);
+
+}
+.container1 .card .face .face22 h3{
+  margin:0 !important;
+  padding: 0 !important;
+  font-size: 10em !important;
+  color:#fff !important;
+  transition: 0.5s !important;
+}
+.container1 .card:hover .face .face22 h3
+{
+  font-size:2em !important;
+}
+    </style>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="home" style="height:100vh!important;">
+        <!-- Background Image -->
+        <div class="bg-img" style="background-image: url('');">
+            <img class="mySlides" src="https://3.imimg.com/data3/WD/CE/MY-19047225/led-highbay-lights-500x500.jpg"
+                style="width:100%;height:100%">
+            <img class="mySlides"
+                src="https://3.imimg.com/data3/QM/DH/MY-2192410/solar-street-light-systems-500x500.jpg"
+                style="width:100%;height:100%">
+            <img class="mySlides"
+                src="https://greenfrogsystems.com/wp-content/uploads/2017/08/Mt-Compass-SA-3-w2000.jpg"
+                style="width:100%; height:100%">
+            <div class="overlay"></div>
+        </div>
+        <!-- /Background Image -->
+
+        <!-- Nav -->
+        <nav id="nav" class="navbar nav-transparent">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <!-- Logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <img class="logo" src="images/SIH_2019_Logo-New.png" alt="logo">
+                            <img class="logo-alt" src="images/SIH_2019_Logo-New.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+
+                    <!-- Collapse nav button -->
+                    <div class="nav-collapse">
+                        <span></span>
+                    </div>
+                    <!-- /Collapse nav button -->
+                </div>
+
+                <!--  Main navigation  -->
+                <ul class="main-nav nav navbar-nav navbar-right">
+                    <li><a href="/#home">Home</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#services">Repair</a></li>
+                    <li><a href="/status">Status</a></li>
+                    <li><a href="/#contact">Contact us</a></li>
+                    <li><a href="/chat">Have a Query</a></li>
+                </ul>
+                <!-- /Main navigation -->
+
+            </div>
+        </nav>
+        <h1 class="text-center" style="color:white;  padding-top:150px; font-size:100px!important;">
+            Status Of Street Lights
+        </h1>
+        <div class="col-md-8 col-md-offset-2">
+                <form class="contact-form" style="vertical-align: center;">
+                    <input type="text" class="input" placeholder="Enter city to be searched" id="city">
+                    <button class="main-btn" id="Search">Search</button>
+                </form>
+        
+            </div>
+    </header>
+
+        <!-- /Nav -->
+        <section style="background: #232526;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ">
+        <div id="status"></div>
+        <div class="container1" id="contains"></div>
+        </section>
+        <!-- /home wrapper -->
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+    <script src="js/client.js"></script>
+
+
+</body>
+
+</html>

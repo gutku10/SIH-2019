@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>HTML Template</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+		.container1 {
+			position: relative;
+			text-align:center;
+			width: 100%;
+			/* padding-right: 220px; */
+			
+		}
+		.buttonalign1
+		{
+			position: relative;
+			text-align:center;
+			width: 100%;
+		}
+		.container2 {
+			position: relative;
+			height: 300px;
+			width: 800px;
+			left: calc(50% - 400px);
+			display: flex;
+		}
+
+		.card {
+			display: flex;
+			height: 280px;
+			width: 200px;
+			background-color: #17141d;
+			border-radius: 10px;
+			box-shadow: -1rem 0 3rem #000;
+			/*   margin-left: -50px; */
+			transition: 0.4s ease-out;
+			position: relative;
+			left: 0px;
+		}
+
+		.card:not(:first-child) {
+			margin-left: -50px;
+		}
+
+		.card:hover {
+			transform: translateY(-20px);
+			transition: 0.4s ease-out;
+		}
+
+		.card:hover~.card {
+			position: relative;
+			left: 50px;
+			transition: 0.4s ease-out;
+		}
+
+		.title3 {
+			color: white;
+			font-weight: 300;
+			position: relative;
+			text-align:center!important;
+			font-size:50px;
+			width: 100%;
+		}
+		.heading{
+			color: white;
+			font-weight: 300;
+			position: relative;
+			text-align: center;
+			font-size:50px;
+			/* left: 20px;
+			top: 15px; */
+		}
+		.brightness{
+			color: white;
+			font-weight: 300;
+			position: relative;
+			text-align: center;
+			font-size:20px;
+			/* top:100px; */
+			padding-top: 144px;
+			padding-right: 74px;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<!-- Header -->
+	<header id="home" style="height: 80vh">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('');">
+			<img class="mySlides" src="https://3.imimg.com/data3/WD/CE/MY-19047225/led-highbay-lights-500x500.jpg"
+				style="width:100%;height:100%">
+			<img class="mySlides" src="https://3.imimg.com/data3/QM/DH/MY-2192410/solar-street-light-systems-500x500.jpg"
+				style="width:100%;height:100%">
+			<img class="mySlides" src="https://greenfrogsystems.com/wp-content/uploads/2017/08/Mt-Compass-SA-3-w2000.jpg"
+				style="width:100%; height:100%">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+								<img class="logo" src="images/SIH_2019_Logo-New.png" alt="logo">
+							<img class="logo-alt" src="images/SIH_2019_Logo-New.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="/#home">Home</a></li>
+					<li><a href="/#about">About</a></li>
+					<li><a href="/#services">Repair</a></li>
+					<li><a href="/status">Status</a></li>
+					<li><a href="/#contact">Contact us</a></li>
+					<li><a href="/chat">Have a Query</a></li>
+					<li><a href="/adminlogin">Login</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text" style="font-size:80px;">Update According to your wish</h1>
+							<p class="white-text">if you want something new,you have to stop doing something old
+							</p>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+    <section style="height:20vh;">
+	<!-- contact form -->
+	<div class="col-md-8 col-md-offset-2">
+		<form class="contact-form" style="vertical-align: center;">
+			<input type="text" class="input" placeholder="Enter city to be searched" id="city">
+			<input type="text" class="input" placeholder="Enter the area in that city" id="area">
+			<button class="main-btn" id="Search">Search</button>
+
+
+		</form>
+
+	</div>
+	
+	</section>	
+	<!-- /contact form -->
+	<div id="status"></div>
+	
+	<section>
+				<br>	
+	<div class="container1" id="container1">
+		<!-- <div class="card">
+			  <h3 class="title">Card 1</h3>
+			  <div class="bar">
+				<div class="emptybar"></div>
+				<div class="filledbar"></div>
+			  </div>
+			 
+			</div>
+			<div class="card">
+			  <h3 class="title">Card 2</h3>
+			  <div class="bar">
+				<div class="emptybar"></div>
+				<div class="filledbar"></div>
+			  </div>
+			 
+			</div>
+			<div class="card">
+			  <h3 class="title">Card 3</h3>
+			  <div class="brightness">
+				<div class="emptybar"></div>
+				<div class="filledbar"></div>
+				
+			  </div>
+		  
+			</div>
+			<div class="card">
+			  <h3 class="title">Card 4</h3>
+			  <div class="bar">
+				<div class="emptybar"></div>
+				<div class="filledbar"></div>
+			  </div>
+			</div>
+			 <div class="card">
+			  <h3 class="title">Card 5</h3>
+			  <div class="bar">
+				<div class="emptybar"></div>
+				<div class="filledbar"></div>
+			  </div>
+			</div>
+			 <div class="card">
+			  <h3 class="title">Card 6</h3>
+			  <div class="bar">
+				<div class="emptybar"></div>
+				<div class="filledbar"></div>
+			  </div>
+	</div> -->
+	</div>
+</section>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) { myIndex = 1 }
+			x[myIndex - 1].style.display = "block";
+			setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+	<!-- /Contact -->
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+	<script src="js/client31.js"></script>
+
+</body>
+
+</html>
